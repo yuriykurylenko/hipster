@@ -1,0 +1,13 @@
+App.View.DeviceTargetingPanel = Backbone.View.extend({
+	render: function() {
+		var formTag = '<form id="deviceTargetingForm" wId="deviceTargetingForm" wtype="form" template="DeviceTargeting" model="App.Model.DeviceTargeting">';
+		/*var dataBindContainer = '<div dataBind="deviceTargetingForm">' + 
+					'	<h3>You choose: </h3><h5>Comment: </h5><span name="dummy" /><br />' +
+					'	<h5>OS: </h5><span name="OS" />' +
+					'</div>'*/
+
+		$(this.el).append(formTag).form();
+		//$(this.el).append(dataBindContainer);
+		return this;
+	}
+});

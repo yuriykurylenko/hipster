@@ -1,0 +1,31 @@
+[{
+	"id": "1",
+	"name": "iPhone 3G"
+}, {
+	"id": "2",
+	"name": "iPhone 4"
+}, {
+	"id": "3",
+	"name": "Samsung Galaxy"
+}, {
+	"id": "4",
+	"name": "Samsung Focus"
+}, {
+	"id": "5",
+	"name": "Nokia Lumia"
+}, {
+	"id": "6",
+	"name": "Nokia 808"
+}, {
+	"id": "7",
+	"name": "HTC Desire S"
+}, {
+	"id": "8",
+	"name": "HTC One X"
+}, {
+	"id": "9",
+	"name": "Blackberry Curve"
+}, {
+	"id": "10",
+	"name": "Blackberry Bold"
+}]
