@@ -1,0 +1,7 @@
+$.widget('ui.factoryWidget', $.ui.AbstractWidget, {
+	_create: function() {
+		$.ui.AbstractWidget.prototype._create.apply(this);
+
+		console.log(this.options.template);
+	},
+});

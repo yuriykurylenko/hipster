@@ -57,7 +57,7 @@ $.widget('ui.AbstractWidget', $.Widget, {
 	_bindDataClients: function() {
 		var widget = this;
 
-		this._dataClients = $('[dataBind=' + this.element.attr('wid') + ']');
+		this._dataClients = $('[dataBind=' + this.element.attr('wId') + ']');
 		this._createViewModelsForDataClients();
 
 		this._model.on('change', $.proxy(this._updateDataClientsOnModelChange, this));
